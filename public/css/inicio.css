@@ -1,0 +1,34 @@
+.videos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.modal-header{
+    border-radius: 20px;
+}
+
+@media(max-width:1366px){
+    .videos img{
+        margin-top: -100px;
+    }
+} 
+@media(max-width:768px){
+    .videos img{
+        width: 200px;
+    }
+}   
+@media (max-width:460px) {
+    .videos img {
+      width: 200px;
+      margin: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+    .videos{
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,162 @@
+#titulo {
+    font-family: 'Open sans';
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 120px;
+  }
+
+  #titulo2 {
+    font-family: 'Open sans';
+    font-size: 35px;
+    font-weight: bold;
+    margin-top: 120px;
+  }
+  .titulo2{
+    width: 470px;
+  } 
+
+  .cbtn {
+    box-shadow: 5px 5px 20px rgba(34, 125, 199, 0.6);
+  }
+
+  .caulas{
+    display: flex;
+    text-align: center;
+  }
+
+  .temas{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 90px;
+  }
+
+  .btncas{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97%;
+  }
+
+  .homei{
+    width: 1170px;
+    margin-top: -23px;
+    display: block;
+
+  }
+
+  #disp{
+  width: 940px;
+  }
+
+  .homei2 {
+    float: right;
+    width: 100%;
+    display: none;
+  }
+
+ @media(max-width:1366px){
+      .homei{
+          width: 800px;
+          margin-left: 100px;
+      }    
+      .titulo2{
+        margin-left: 40px;
+        margin-top: -20px;
+      }
+      #titulo2{
+        margin-left: 30px;
+      }
+      #p{
+        margin-left: 30px;
+      }
+      #disp{
+        width: 600px;
+      }
+    }
+
+  @media(max-width:768px){
+      .homei{
+          width: 430px;
+          margin-left: 70px;
+      }   
+      #disp{
+        width: 320px;
+        margin: 20px;
+        margin-top: -60px;
+      }
+      .caulas{
+        margin-top: -80px;
+        margin-bottom: -20px;
+      }
+      .titulo2{
+        margin-top: -100px;
+        width: 230px;
+        line-height: 15px;
+      }
+      #titulodis{
+        margin-top: -150px;
+        line-height: 15px;
+      }
+      .cbtn {
+        font-size: 12px;
+      }
+      #titulo{
+        font-size: 16px;
+      }
+      .temas img{
+          width: 160px;
+          margin: 10px;
+      }
+      #titulo2{
+        font-size: 22px;
+      }
+  }
+@media (max-width:460px) {
+    .homei {
+      display: none;
+    }
+    .homei2 {
+      display: block;  
+      margin-top: -25px;
+      width: 100%;
+    }   
+    .homeima{
+      padding: 0%;
+    }
+    #titulo{
+      font-size: 18px;
+      padding: 20px;
+      margin-bottom: -40px;
+      margin-top: 90px;
+    }
+
+    .titulo2{
+     display: none;
+    }
+  .temas img{
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin: 10px;
+  }
+   #titulo2{
+    font-family: 'Open sans';
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 50px;
+  }
+  #titulodis{
+    padding: 40px;
+  }
+  #disp{
+    width: 320px;
+  }
+  }
+  
