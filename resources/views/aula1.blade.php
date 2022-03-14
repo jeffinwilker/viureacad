@@ -3,7 +3,7 @@
 @section('content')
 
 <h1>player</h1>
-<div style="overflow: hidden;
+<div class="video" style="overflow: hidden;
     width: 1278px;
     height: 650px;
     border-radius: 20px;

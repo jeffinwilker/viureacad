@@ -19,6 +19,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('css/home.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/player.css') }}" rel="stylesheet">
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
     
     <!-- Scripts -->
